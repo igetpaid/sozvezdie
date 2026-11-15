@@ -1,0 +1,16 @@
+# Файлы, которые создаются при сборке и не должны попадать в Git.
+*.iml
+.gradle/
+.kotlin/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Ключи сервисных аккаунтов Firebase. Они не должны попадать в Git.
+serviceAccount*.json
+firebase-deploy.json
+*-firebase-adminsdk-*.json
